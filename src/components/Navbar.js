@@ -51,7 +51,7 @@ const Navbar = () => {
             }}
           >
             <MenuIcon
-              sx={{ fontSize: { xs: "25px", sm: "40px", md: "40px" }, mt:{xs:1,sm:2,md:2} }}
+              sx={{ fontSize: { xs: "25px", sm: "40px", md: "35px" }, mt:{xs:1,sm:2,md:2} }}
             />
           </IconButton>
 
@@ -69,17 +69,17 @@ const Navbar = () => {
           <Box sx={{ mt:{xs:1,sm:2,md:2}}}>
             <IconButton sx={{ color: "gray" }}>
               <AccountCircleIcon
-                sx={{ fontSize: { xs: "25px", sm: "30px", md: "35px" } }}
+                sx={{ fontSize: { xs: "25px", sm: "30px", md: "32px" } }}
               />
             </IconButton>
             <IconButton sx={{ color: "gray" }}>
               <SearchIcon
-                sx={{ fontSize: { xs: "25px", sm: "30px", md: "35px" } }}
+                sx={{ fontSize: { xs: "25px", sm: "30px", md: "32px" } }}
               />
             </IconButton>
             <IconButton sx={{ color: "gray" }}>
               <ShoppingBagIcon
-                sx={{ fontSize: { xs: "25px", sm: "30px", md: "35px" } }}
+                sx={{ fontSize: { xs: "25px", sm: "30px", md: "32px" } }}
               />
             </IconButton>
           </Box>

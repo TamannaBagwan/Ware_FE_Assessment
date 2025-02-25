@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import { Box, IconButton } from "@mui/material";
 import { Star, StarBorder } from "@mui/icons-material";
 
-const Ratings = () => {
-  const [rating, setRating] = useState(0);
-
+const Ratings = ({rating, setRating}) => {
   const handleStarClick = (index) => {
-    setRating(index + 1);
+    setRating(index + 1); 
   };
-
   return (
     <Box>
       {[...Array(5)].map((_, index) => (
